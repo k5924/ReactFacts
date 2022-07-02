@@ -9,6 +9,7 @@ font-family: 'Inter', sans-serif;
 } 
 
 body {
+  background-color: #282D35;
   margin: 0;
 }
 
@@ -29,10 +30,31 @@ nav {
   margin-right: auto;
   color: #61DAFB;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 20;
 }
 
 .nav--logo {
   height: 30px;
   margin-right: 10px;
+}
+
+.mainContent {
+  padding: 60px 30px;
+  color: white;
+}
+
+.main--titleText {
+  letter-spacing: -0.05em;
+  margin: 0;
+  font-size: 40px;
+}
+
+.main--list {
+  margin-top: 45px;
+  max-width: 400px;
+}
+
+.main--list > li {
+  line-height: 20px;
+  padding-block: 10px;
 }
