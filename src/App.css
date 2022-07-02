@@ -41,6 +41,9 @@ nav {
 .mainContent {
   padding: 60px 30px;
   color: white;
+  background-image: url(../src/images/react-icon-large.png);
+  background-repeat: no-repeat;
+  background-position: right center;
 }
 
 .main--titleText {
